@@ -1,12 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {Router, browserHistory, Route} from 'react-router'
+import Routes from './routes'
 
 ReactDOM.render(
 
-    <div>
-        <h1>Hello World!</h1>
-    </div>, 
+    <Router
+        history={browserHistory}
+        routes={Routes}
+    />, 
     
-    document.getElementById('root'
+    document.getElementById('root')
 
-))
+)
